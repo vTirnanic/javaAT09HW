@@ -18,7 +18,7 @@ public class BaseTest {
     public HomepagePage homepagePage;
     public LoginPage loginPage;
     public SidebarPage sidebarPage;
-    public PracticeformPage practiceFormPage;
+    public PracticeFormPage practiceFormPage;
     public BooksPage booksPage;
 
     @BeforeClass
@@ -30,7 +30,7 @@ public class BaseTest {
         homepagePage = new HomepagePage();
         loginPage = new LoginPage();
         sidebarPage = new SidebarPage();
-        practiceFormPage = new PracticeformPage();
+        practiceFormPage = new PracticeFormPage();
         booksPage = new BooksPage();
     }
 

@@ -9,9 +9,9 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class PracticeformPage extends BaseTest {
+public class PracticeFormPage extends BaseTest {
 
-    public PracticeformPage() {
+    public PracticeFormPage() {
         PageFactory.initElements(driver, this);
     }
 
