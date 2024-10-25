@@ -22,7 +22,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-    public void userCanLogin() throws InterruptedException {
+    public void userCanLogin() {
         homepagePage.clickOnCard("Book Store Application");
         booksPage.clickOnLoginButton2();
         loginPage.inputUsername(validUsername);

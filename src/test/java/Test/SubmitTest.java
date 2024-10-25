@@ -1,7 +1,6 @@
 package Test;
 
 import Base.BaseTest;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
